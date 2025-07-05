@@ -3,3 +3,7 @@
 * {
   scroll-behavior: smooth;
 }
+
+.C-logo {
+  clip-path: 0 0 50px 0;
+}
