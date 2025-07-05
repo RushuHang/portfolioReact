@@ -1,11 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 export default function TextChanger() {
-  const texts = [
-    "Hello, I'm Rushu Hang Limbu",
-    "Hello, I'm Rushu Hang Limbu",
-    "Hello, I'm Rushu Hang Limbu",
-  ];
+  const texts = ["Hello, I'm Rushu Hang Limbu", "Hello, I'm Rushu Hang Limbu", "Hello, I'm Rushu Hang Limbu"];
   const [currentText, setCurrentText] = useState("");
   const [endValue, setEndValue] = useState(true);
   const [isForward, setIsForward] = useState(true);

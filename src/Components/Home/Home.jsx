@@ -4,22 +4,30 @@ import TextChanger from "../TextChanger";
 
 export default function Home() {
   return (
-    <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
-      <div className="md:w-2/4 md:pt-10">
-        <h1 className="text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter">
+    <section className="relative h-[690px] w-full overflow-hidden">
+      <div className="absolute inset-0">
+        <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="0,0 100,0 0,100" className="fill-[#1F263D]" />
+        </svg>
+      </div>
+
+      <div className="absolute inset-0">
+        <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="100,0 100,100 0,100" className="fill-[#0F1423]" />
+        </svg>
+      </div>
+
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white px-6 text-center">
+        <h1 className="text-3xl md:text-5xl font-bold flex leading-normal tracking-tighter">
           <TextChanger />
         </h1>
-        <p className="text-sm md:text-2xl tracking-tight">
-          And I m <span className="text-blue-300">Frontend Developer</span> and
-          <span className="text-blue-300"> Backend Developer </span>.
+        <p className="text-sm md:text-2xl tracking-tight mt-2">
+          I build <span className="text-blue-300">interactive interfaces</span> that not only look good — but feel good to use.
         </p>
-        <button className="mt-5 md:md-10 text-white py-02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          Contact me
+        <button className="mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-[1.1] font-semibold rounded-3xl bg-[#465697]">
+          Let’s Build Something
         </button>
       </div>
-      <div>
-        <img className="" src={avatarimg} alt="" />
-      </div>
-    </div>
+    </section>
   );
 }

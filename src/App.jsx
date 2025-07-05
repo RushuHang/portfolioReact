@@ -9,7 +9,9 @@ function App() {
     <div className="bg-[#171d32] h-auto w-full overflow-hidden">
       <Navbar />
       <Home />
-      <About />
+      <section className="pt-24 pb-10 px-4">
+        <About />
+      </section>
       <Experience />
       <Footer />
     </div>

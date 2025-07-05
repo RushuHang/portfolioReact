@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-slg: 1204px;
+}
+
 * {
   scroll-behavior: smooth;
+}
+
+.C-logo {
+  clip-path: 0 0 50px 0;
 }
