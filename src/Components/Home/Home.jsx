@@ -6,13 +6,21 @@ export default function Home() {
   return (
     <section className="relative h-[690px] w-full overflow-hidden">
       <div className="absolute inset-0">
-        <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <svg
+          className="w-full h-full"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
           <polygon points="0,0 100,0 0,100" className="fill-[#1F263D]" />
         </svg>
       </div>
 
       <div className="absolute inset-0">
-        <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <svg
+          className="w-full h-full"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
           <polygon points="100,0 100,100 0,100" className="fill-[#0F1423]" />
         </svg>
       </div>
@@ -22,11 +30,9 @@ export default function Home() {
           <TextChanger />
         </h1>
         <p className="text-sm md:text-2xl tracking-tight mt-2">
-          I build <span className="text-blue-300">interactive interfaces</span> that not only look good — but feel good to use.
+          I build <span className="text-blue-300">interactive interfaces</span>{" "}
+          that not only look good — but feel good to use.
         </p>
-        <button className="mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-[1.1] font-semibold rounded-3xl bg-[#465697]">
-          Let’s Build Something
-        </button>
       </div>
     </section>
   );

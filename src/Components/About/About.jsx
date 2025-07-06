@@ -15,17 +15,25 @@ export default function About() {
         <h2 className="text-2xl md:text-4xl font-bold">About Me</h2>
         <div className="mt-8">
           <p>
-            Hi, I’m Rushu Hang Limbu, a passionate frontend web developer dedicated to crafting clean, responsive user experiences. <br />
-            With over 6 months of hands-on experience, I’ve worked with{" "}
-            <span className="text-amber-200 font-semibold">HTML5, CSS, Bootstrap, Tailwind CSS, JavaScript,</span> and{" "}
-            <span className="text-amber-200 font-semibold">PHP</span>—bringing designs to life using frameworks like{" "}
-            <span className="text-amber-200 font-semibold">React</span> and <span className="text-amber-200 font-semibold">Laravel</span>, and
-            managing data with <span className="text-amber-200 font-semibold">MySQL</span>.
+            Hi, I’m Rushu Hang Limbu, a passionate frontend web developer
+            dedicated to crafting clean, responsive user experiences. <br />
+            With over 3 months of hands-on experience, I’ve worked with{" "}
+            <span className="text-blue-200 font-semibold">
+              HTML5, CSS, Bootstrap, Tailwind CSS, JavaScript,
+            </span>{" "}
+            and <span className="text-blue-200 font-semibold">PHP</span>
+            —bringing designs to life using frameworks like{" "}
+            <span className="text-blue-200 font-semibold">React</span> and{" "}
+            <span className="text-blue-200 font-semibold">Laravel</span>, and
+            managing data with{" "}
+            <span className="text-blue-200 font-semibold">MySQL</span>.
           </p>
           <p className="mt-4">
-            Currently, I’m in my 6th semester of a Bachelor of Computer Applications (BCA), where I’m expanding my knowledge of full‑stack development
-            and software architecture. Whether I’m building pixel‑perfect layouts or optimizing application performance, I’m always eager to learn new
-            tools and techniques to improve and grow.
+            Currently, I’m in my 6th semester of a Bachelor of Computer
+            Applications (BCA), where I’m expanding my knowledge of full‑stack
+            development and software architecture. Whether I’m building
+            pixel‑perfect layouts or optimizing application performance, I’m
+            always eager to learn new tools and techniques to improve and grow.
           </p>
           {/* <img className="md:h-80" src={AboutImg} alt="" /> */}
           {/* <ul>
